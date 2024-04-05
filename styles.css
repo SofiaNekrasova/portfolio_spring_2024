@@ -1,0 +1,249 @@
+@font-face {
+    font-family: Valiska;
+    src: url("fonts/VALISCA.TTF");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("./imgs/Fon.svg");
+    background-repeat: repeat;
+    
+    /* width: 100vw; */
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.relative{
+    position: relative;
+}
+
+#order_button {
+    top: 770px;
+    left: 680px;
+    position: absolute;
+    font-size: 2em;
+    padding: 5px 150px 5px 150px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 100px;
+    box-shadow: 5px 5px black;
+}
+
+#order_button:hover {
+    background-color: #FFE1E7;
+}
+
+#order_button:active {
+    background-color: #E8AFDB;
+}
+
+#yellow_arrow {
+    top: 815px;
+    left: 1190px;
+    z-index: 1;
+    position: absolute;
+}
+.project-button:hover {
+    background-color: #FFE1E7;
+}
+
+.project-button:active {
+    background-color: #E8AFDB;
+}
+
+#navbar {
+    z-index: 2;
+    position: sticky;
+    top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    width: 60vw;
+    border: 2px solid black;
+    box-shadow: 4px 3px black;
+    margin: 0px auto 0px auto;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+}
+
+#navbar span {
+    font-size: 1.4em;
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto"
+}
+
+#navbar span:hover {
+    text-decoration: underline;
+}
+
+#navbar span:active {
+    color: #FE87BD;
+    text-decoration: underline;
+}
+
+.pr-navbar {
+
+    z-index: 2;
+    position: sticky;
+    top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    width: 100vw;
+    /* margin: 0px 100 0px auto; */
+    padding: 10px 0px 10px 0px;
+}
+
+.pr-navbar span {
+    font-size: 1.3em;
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto"
+}
+
+.pr-navbar span:hover {
+    text-decoration: underline;
+}
+
+.pr-navbar span:active {
+    color: #FE87BD;
+    text-decoration: underline;
+}
+
+.pr-inner-navbar a {
+    font-size: 1.4em;
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+.pr-inner-navbar a:hover {
+    text-decoration: underline;
+}
+
+.pr-inner-navbar a:active {
+    font-weight: bold;
+    color: #FE87BD;
+    text-decoration: underline;
+}
+
+.pr-inner-navbar {
+    position: sticky;
+    top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    width: 30vw;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 6px 6px black;
+}
+
+.pr-navbar-button {
+    border: 3px solid black;
+    box-shadow: 6px 6px black;
+    background-color: white;
+    padding: 10px 36px 10px 36px;
+    /* font-size: 1.3em; */
+
+}
+
+.spacer-100 {
+    height: 100px;
+}
+
+.spacer-50 {
+    height: 50px;
+}
+
+.spacer-30 {
+    height: 30px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.cool-font {
+    font-family: "Valiska";
+    font-size: 7em;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card {
+    display: flex; 
+    justify-content: center;
+    width: 60vw;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    box-shadow: 6px 6px black;
+}
+
+.hashtag {
+    font-family: "Roboto";
+    font-size: 1.2em;
+}
+
+.project-button {
+    border: 3px solid black;
+    background-color: white;
+    padding: 10px 36px 10px 36px;
+    font-size: 1.3em;
+    box-shadow: 6px 6px black;
+}
+
+#contant-info {
+    z-index: 1;
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    font-family: "Roboto";
+    font-size: 1.5em;
+}
+
+a {
+    font-family: "Roboto";
+    text-decoration: none;
+    color: black;
+}
+
+.copyright {
+    color: #F27E97;
+    font-family: "Roboto";
+    font-size: 1.3em;
+    margin-bottom: 16px;
+}

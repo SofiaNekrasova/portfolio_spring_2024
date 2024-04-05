@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Portfolio</title>
+    </head>
+    <body>
+
+        <header>
+            <div class="relative">
+                <img id="test" src="imgs/oblojka.png" alt="">
+                <img id="yellow_arrow" src="imgs/yellow_arrow.png" alt="">
+                <button id="order_button" onclick="scrollToFooter()">Заказать проект</button>
+            </div>   
+        </header>
+
+        <main>
+            <div id="navbar">
+                <span onclick="scrollToTop()">Главная</span>
+                <span onclick="scrollToProjects()">Проекты</span>
+                <span onclick="scrollToFooter()">Контакты</span>
+            </div>
+
+            <div class="spacer-100"></div>
+
+            <div class="center-content">
+                <img src="imgs/about.png" alt="">
+            </div>
+
+            <div class="spacer-100"></div>
+            <div class="spacer-100"></div>
+
+            <div class="center-content">
+                <img src="imgs/skill.png" alt="">   
+            </div>
+
+            <div class="spacer-100"></div>
+            <div class="spacer-100" id="projects"></div>
+
+            <div class="center-content" >
+                <img src="imgs/projects.png" alt="">   
+            </div>
+
+            <div class="spacer-100"></div>
+
+            <!-- Екатеринбург -->
+            <div class="project-card">
+                <div style="display: flex; flex-direction: column; flex: 1">
+                    <div style="flex: 1; display: flex; justify-content: center; align-items: center">
+                        <img src="imgs/Екатеринбург.png" alt="">
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin: 26px 26px 26px 26px;">
+                        <span class="hashtag">#мобильное_приложение</span>
+                        <a href="ekaterinburg.html" class="project-button">
+                            <span style="margin-right: 16px;">Подробнее</span>
+                            <img src="imgs/arrow_right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <img src="imgs/ekaterinburg.png" alt="">
+            </div>
+
+            <div class="spacer-50"></div>
+
+            <!-- Розовый чизкейк -->
+            <div class="project-card">
+                <div style="display: flex; flex-direction: column; flex: 1">
+                    <div style="flex: 1; display: flex; justify-content: center; align-items: center">
+                        <img src="imgs/Розовый Чизкейк.png" alt="">
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin: 26px 26px 26px 26px;">
+                        <span class="hashtag">#сайт</span>
+                        <a href="pink_cheese.html" class="project-button">
+                            <span style="margin-right: 16px;">Подробнее</span>
+                            <img src="imgs/arrow_right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <img src="imgs/pink_cheese.png" alt="">
+            </div>
+
+            <div class="spacer-50"></div>
+
+            <!-- B.Chat  -->
+            <div class="project-card">
+                <div style="display: flex; flex-direction: column; flex: 1">
+                    <div style="flex: 1; display: flex; justify-content: center; align-items: center">
+                        <img src="imgs/B.Chat.png" alt="">
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin: 26px 26px 26px 26px;">
+                        <span class="hashtag">#десктоп_приложение</span>
+                        <a href="bchat.html" class="project-button">
+                            <span style="margin-right: 16px;">Подробнее</span>
+                            <img src="imgs/arrow_right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <img src="imgs/bchatting.png" alt="">
+            </div>
+
+            <div class="spacer-50"></div>
+
+            <!-- Examinator -->
+            <div class="project-card">
+                <div style="display: flex; flex-direction: column; flex: 1">
+                    <div style="flex: 1; display: flex; justify-content: center; align-items: center">
+                        <img src="imgs/Examinator.png" alt="">
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin: 26px 26px 26px 26px;">
+                        <span class="hashtag">#мобильное_приложение</span>
+                        <a href="examinator.html" class="project-button">
+                            <span style="margin-right: 16px;">Подробнее</span>
+                            <img src="imgs/arrow_right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <img src="imgs/exam.png" alt="">
+            </div>
+
+            <div class="spacer-50"></div>
+
+            <!-- Фотограф Арина -->
+            <div class="project-card">
+                <div style="display: flex; flex-direction: column; flex: 1">
+                    <div style="flex: 1; display: flex; justify-content: center; align-items: center">
+                        <img src="imgs/Фотограф Арина.png" alt="">
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin: 26px 26px 26px 26px;">
+                        <span class="hashtag">#сайт</span>
+                        <a href="photograph.html" class="project-button">
+                            <span style="margin-right: 16px;">Подробнее</span>
+                            <img src="imgs/arrow_right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <img src="imgs/photograph.png" alt="">
+            </div>
+
+            <div class="spacer-100"></div>
+
+        </main>
+
+        <footer id="footer">
+
+            <div class="relative">
+                <div id="contant-info">
+                    <span>Софья Некрасова</span>
+                    <br>
+                    <span>г. Санкт-Петербург</span>
+                    <br>
+                    <br>
+                    <span>+7 987 654 32 10</span>
+                    <br>
+                    <span>sofia.nekrasova@gmail.com</span>
+                    <div style="display: flex; justify-content: space-around; margin-top: 56px;">
+                        <img src="imgs/telega_button.png" alt="">
+                        <img src="imgs/gmail_button.png" alt="">
+                        <img src="imgs/whatsapp_button.png" alt="">
+                    </div>
+                </div>
+                <img id="test" style="position: relative" src="imgs/contacts.png" alt="">
+            </div>   
+        </footer>
+        <div class="center-content">
+            <span class="copyright">© 2024 Design By СоняМоня</span>
+        </div>
+
+        <script src="scrollTo.js"></script>
+    </body>
+</html>
